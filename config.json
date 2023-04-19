@@ -1,0 +1,9 @@
+{
+    "facebookConfig": {
+        "clientId": "********",
+        "clientSecret": "********",
+        "apiVersion": "v16.0",
+        "redirectUri": "*******/facebook/auth/success",
+        "scope": "email,public_profile,ads_management,ads_read,read_insights"
+    }
+}

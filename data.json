@@ -1,0 +1,43 @@
+{
+  "campaignData": {
+    "name": "Campaign 1",
+    "objective": "POST_ENGAGEMENT",
+    "status": "PAUSED",
+    "special_ad_categories": ["EMPLOYMENT", "HOUSING"]
+  },
+  "adsetsData": {
+    "name": "Adsets 1",
+    "optimization_goal": "POST_ENGAGEMENT",
+    "billing_event": "IMPRESSIONS",
+    "bid_amount": "1500",
+    "targeting": {
+      "geo_locations": {
+        "countries": ["US"]
+      }
+    },
+    "campaign_id": "***********",
+    "end_time": "***********",
+    "status": "PAUSED"
+  },
+  "adData": {
+    "name": "Ad 1",
+    "adset_id": "***********",
+    "creative": {
+      "name": "Creative 1",
+      "object_story_spec": {
+        "page_id": "***********",
+        "link_data": {
+          "picture": "***********",
+          "link": "***********",
+          "message": "***********"
+        }
+      }
+    },
+    "status": "PAUSED"
+  },
+  "insightsData": {
+    "fields": "spend,clicks,reach,frequency,purchase_roas,conversions,conversion_values,place_page_name,full_view_impressions,video_play_curve_actions,converted_product_value,cpc,cpm,cpp,cost_per_ad_click,cost_per_one_thousand_ad_impression,cost_per_thruplay,cost_per_unique_click,ad_id,adset_id",
+    "date_preset": "last_30d",
+    "level": "ad"
+  }
+}
